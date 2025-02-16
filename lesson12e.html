@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .google
+        {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        div{
+            border-style: solid;
+        }
+
+        .q_one
+        {
+            display: flex;
+            width: 400px;
+            height: 200px;
+            flex-direction: column;
+        }
+        .q_two , .q_three , .q_four
+        {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+         .q_six ,  .q_eight ,  .q_ten
+        {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .q_five ,.q_seven ,.q_nine 
+        {
+            flex: 4;
+            display: flex;
+            align-items: center;
+        }
+
+        .q_five p,.q_seven p, .q_nine p{
+            margin-left: 5px;
+
+        }
+        img{
+           padding-right: 0;
+           width: 40px;
+           height: 40px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="q_one">
+        <div class="q_two">
+            <div class="q_five"><p>Home</p></div>
+            <div class="q_six"><img src="pictures/l1.jpeg" alt=""></div>
+        </div>
+        <div class="q_three">
+            <div class="q_seven"><p>Notifications</p></div>
+            <div class="q_eight"><img src="pictures/l2.jpeg" alt=""></div>
+        </div>
+        <div class="q_four">
+            <div class="q_nine"><p>Messages</p></div>
+            <div class="q_ten"><img src="pictures/l3.jpeg" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>
