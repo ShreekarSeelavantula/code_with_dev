@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            border-style: solid;
+        }
+        .q_one{
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            width: 500px;
+            
+        }
+        .q_two , .q_three , .q_four
+        {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .q_five, .q_seven, .q_eight , .q_ten ,.q_eleven , .q_thirteen{
+            flex: 1;
+        }
+        .q_six ,.q_nine ,.q_twelve 
+        {
+           flex: 3;
+           display: flex;
+           flex-direction: column;
+           justify-content: start;
+           
+        }
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 100px;
+            margin: 5px 0 0 9px;
+        }
+        .q_six p,.q_nine p,.q_twelve p 
+           {
+            display: inline-block;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-size: 20px;
+           }
+        button{
+            font-size: 20px;
+            font-weight: 700px;
+            border-radius: 2px;
+            color: white;
+            background-color: rgb(19, 164, 221);
+            border-style: solid;
+            border-color: rgb(19, 164, 221);
+            padding: 5px 8px 5px 8px;
+            margin: 20px 0 0 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="q_one">
+        <div class="q_two">
+            <div class="q_five"><img src="pictures/l1.jpeg" alt=""></div>
+            <div class="q_six">
+                <p style=" font-weight: bold;">Oliver</p>
+                <p style=" color: darkgray;">The Cat</p>
+                <p style=" color: darkgray;">Popular</p>
+            </div>
+            <div class="q_seven"><button>Follow</button></div>
+
+        </div>
+        <div class="q_three">
+            <div class="q_eight"><img src="pictures/l2.jpeg" alt=""></div>
+            <div class="q_nine">
+                <p style=" font-weight: bold;">Oliver</p>
+                <p style=" color: darkgray;">The Cat</p>
+                <p style=" color: darkgray;">Popular</p>
+            </div>
+            <div class="q_ten"><button>Follow</button></div>
+
+        </div>
+        <div class="q_four">
+            <div class="q_eleven"><img src="pictures/l3.jpeg" alt=""></div>
+            <div class="q_twelve">
+                <p style=" font-weight: bold;">Oliver</p>
+                <p style=" color: darkgray;">The Cat</p>
+                <p style=" color: darkgray;">Popular</p>
+            </div>
+            <div class="q_thirteen"><button>Follow</button></div>
+
+        </div>
+    </div>
+</body>
+</html>
