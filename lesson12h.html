@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            font-family: Roboto, Helvetica, sans-serif;
+
+        }
+        div{
+            border-style: solid;
+            border-color: black;
+        }
+        .q_one
+        {
+            display:flex;
+            flex-direction: row;
+            height: 70px;
+            background-color: rgb(162, 100, 221);
+        }
+        .q_two 
+        {
+            flex: 2;
+            display: flex;
+            align-items: center;
+        }
+        .q_two p{
+            color: white;
+            display: inline-block;
+            font-size: 25px;
+            margin-left: 15px;
+        }
+        .q_three
+        {
+            flex: 4;
+            display: flex;
+            align-items: center;
+        }
+        .q_three input{
+            width: 100%;
+            font-size: 25px;
+            align-items: center;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: white;
+            padding: 5px 300px 5px 20px ;
+        }
+        .q_four
+        {
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .q_four button{
+            font-size: 25px;
+            padding: 7px 15px 7px 15px;
+            border-style: solid;
+            border-color: white;
+            background-color: rgb(162, 100, 221);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="q_one">
+        <div class="q_two"><p>Home</p></div>
+        <div class="q_three"><input type="text" placeholder="Search"></div>
+        <div class="q_four"><button>Download</button></div>
+    </div>
+</body>
+</html>
