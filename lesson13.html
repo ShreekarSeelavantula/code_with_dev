@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            font-size: 15px;
+        }
+        .google
+        {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        div{
+            border-style: solid;
+        }
+
+        .q_one
+        {
+            display: flex;
+            height: 100px;
+            width: 600px;
+        }
+        .q_two
+        {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightblue;
+        }
+        .q_two p{
+            font-weight: bold;
+            color: white;
+            background-color: black;         
+        }
+        
+        .q_three{
+            flex: 4;
+            background-color: lightpink;
+        }
+        .w_one
+        {
+            display: flex;
+            height: 100px;
+            width: 600px;
+        }
+        .w_two
+        {
+            flex: 1;
+            background-color: lightblue;
+        }
+        .w_two p{
+            font-weight: bold;
+           
+        }
+        .w_three{
+            flex: 4;
+            background-color: lightpink;
+            display: flex;
+            flex-direction: column;
+        }
+        .w_four , .w_five , .w_six
+        {
+            flex: 1;
+        }
+        .w_four p{
+            margin: 0;
+        }
+        .w_five{
+            display: flex;
+            justify-content: space-between;
+        }
+        .w_five p
+        {
+            background-color: black;
+            color: white;
+            margin: 0;          
+        }
+
+    </style>
+</head>
+<body>
+    <p class="google">The 13 a excercise</p>
+    <div class="q_one">
+        <div class="q_two"> <p class="hi2">Item1</p></div>
+        <div class="q_three"></div>
+    </div>
+    <p class="google">The 13 b excercise</p>
+    <div class="w_one">
+        <div class="w_two"></div>
+        <div class="w_three">
+            <div class="w_four"><p> row1</p></div>
+            <div class="w_five"><p>item1</p><p>item2</p></div>
+            <div class="w_six"></div>
+        </div>
+    </div>
+</body>
+</html>
